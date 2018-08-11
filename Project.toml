@@ -1,0 +1,6 @@
+authors = ["stenoritama <shr.nrht.0623@gmail.com>"]
+name = "ChangeFinder"
+uuid = "c96c41ac-9d54-11e8-13ee-f7351a6696ee"
+version = "0.1.0"
+
+[deps]
