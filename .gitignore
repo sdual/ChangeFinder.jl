@@ -4,3 +4,6 @@
 
 # os generated files.
 .DS_Store
+
+# IntelliJ
+.idea/
