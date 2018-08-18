@@ -9,15 +9,15 @@ end
 
 function solve_size_one(toeplitz_eles::Vector{Float64}) :: Tuple{Vector{Float64}, Float64}
     solutions = [1.0, - toeplitz_eles[2] / toeplitz_eles[1]]
-    extra_element = toeplitz_eles[1] + toeplitz_eles[2] * solutions[2]
-    return solutions, extra_element
+    extra_ele = toeplitz_eles[1] + toeplitz_eles[2] * solutions[2]
+    return solutions, extra_ele
 end
 
 function solve_recursively(
     toeplitz_eles::Vector{Float64},
     initial_solutions::Vector{Float64},
     initial_extra_ele::Float64,
-     lpc_dim::Int64) :: Tuple{Vector{Float64}, Float64}
+    lpc_dim::Int64) :: Tuple{Vector{Float64}, Float64}
 
     extra_ele = initial_extra_ele
     solutions = initial_solutions
