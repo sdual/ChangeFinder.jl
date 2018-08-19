@@ -1,5 +1,5 @@
 module ChangeFinder
 
-include("levinson_durbin_recursion.jl")
+include("levinson_durbin.jl")
 
 end # module
