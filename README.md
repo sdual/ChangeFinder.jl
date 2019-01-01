@@ -1,4 +1,7 @@
 # ChangeFinder.jl
+
+[![Build Status](https://travis-ci.org/sdual/ChangeFinder.jl.svg?branch=master)](https://travis-ci.org/sdual/ChangeFinder.jl)
+
 - Julia implementation of ChageFinder, which is known as a change point detection algorithm.
 
 ## References
