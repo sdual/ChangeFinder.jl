@@ -1,5 +1,3 @@
-module LevinsonDurbin
-
 function solve(toeplitz_eles::Vector{Float64}) :: Vector{Float64}
     solutions, extra_ele = solve_size_one(toeplitz_eles)
     lpc_dim = size(toeplitz_eles, 1) - 2

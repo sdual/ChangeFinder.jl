@@ -1,11 +1,4 @@
-module AutoRegression
-
 using Distributions
-
-macro check_args(D, cond)
-    quote
-    if !($(esc(cond)))
-end
 
 struct ChangeFinder{T<:Real}
     discounting::T
