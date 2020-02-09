@@ -1,5 +1,8 @@
 module ChangeFinder
 
-include("levinson_durbin_recursion.jl")
+export ChangeFinder
 
-end # module
+include("levinson_durbin.jl")
+include("adar")
+
+end # module ChangeFinder
